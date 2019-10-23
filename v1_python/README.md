@@ -2,9 +2,7 @@
 
 Send commands to multiple AGVs via a TCP/IP socket. The AGVs are using [NXP's S32K144 Evaluation Board] (https://www.nxp.com/design/development-boards/automotive-development-platforms/s32k-mcu-platforms/s32k144-evaluation-board:S32K144EVB). Make the AGVS dance!!
 
-## Getting Started
-
-
+//## Getting Started
 
 ### Pre-requisites
 
@@ -12,11 +10,11 @@ The code requires `python3` and the following modules:
 * `socket`
 * `svgwrite`
 
-### Installing
-
-
+//### Installing
 
 ## Deployment
+
+### Instruction Set
 
 The instruction set corresponds with the following document (in Spanish):
 
@@ -49,16 +47,23 @@ El posicionamiento que el vehículo debe tomar antes de avanzar está dado por l
   * SI: Girar 180° antes de avanzar
 	* GI: Girar 360° antes de avanzar
 
+## Usage
+
+`main.py` should be executed to perform trials and tests.
+
+* `agvsend.py` contains a function to send an instruction via TCP/IP to a specific IP client.
+* `rutas.py` contains functions to record the paths sent to AGVs in a SVG file.
+
 ## Built With
 
 * [python3](https://www.python.org/downloads/) - Version 3.6.5
 * [svgwrite](https://pypi.org/project/svgwrite/) - Version 1.3.1
 
-## Contributing
+//## Contributing
 
 
 
-## Versioning
+//## Versioning
 
 
 
@@ -70,6 +75,4 @@ El posicionamiento que el vehículo debe tomar antes de avanzar está dado por l
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-*
+//## Acknowledgments

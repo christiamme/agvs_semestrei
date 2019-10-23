@@ -26,6 +26,7 @@ The instruction set corresponds with the following document (in Spanish):
 Se recomienda contar con una instrucción que cambie la conexión entre la necesaria para la aplicación móvil (p.e. una conexión directa a un dispositivo móvil) y la conexión a la red de broadcast (SSID Semestre_i, WPA Semestre_i).
 
 La instrucción de broadcast será un string con el formato "BC /NN+00WC ".
+````
 	* 4 caracteres de inicio de instrucción de broadcast ("BC /")
 	* 2 caracteres indicadores de posicionamiento (11 posiciones posibles, ver lista)
 	* 1 caracter indicador de dirección ("+" para frente, "-" para reversa)
@@ -33,22 +34,28 @@ La instrucción de broadcast será un string con el formato "BC /NN+00WC ".
 	* 1 caracter para indicar movimiento de la mesa ("M" para subir mesa, "W" para bajar mesa)
 	* 1 caracter para indicar modo ("C" para continuar esperando otra instrucción en modo broadcast, "R" para regresar al modo app)
 	* 1 caracter de espacio para indicar fin de instrucción
-
+````
 El posicionamiento que el vehículo debe tomar antes de avanzar está dado por la siguiente tabla.
 	Mantener posición
+````
 		* NN: Avanzar o retroceder sin girar
+````
 	Giros a la derecha
+````
 		* NE: Girar 45° antes de avanzar
 		* EE: Girar 90° antes de avanzar
 		* SE: Girar 135° antes de avanzar
 		* SD: Girar 180° antes de avanzar
 		* GD: Girar 360° antes de avanzar
+````
 	Giros a la izquierda
+````
 		* NO: Girar 45° antes de avanzar
 		* OO: Girar 90° antes de avanzar
 		* SO: Girar 135° antes de avanzar
 	  * SI: Girar 180° antes de avanzar
 		* GI: Girar 360° antes de avanzar
+````
 
 ## Built With
 

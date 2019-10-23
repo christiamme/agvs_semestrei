@@ -9,11 +9,8 @@ Send commands to multiple AGVs via a TCP/IP socket. The AGVs are using [NXP's S3
 ### Pre-requisites
 
 The code requires `python3` and the following modules:
-
-```
-socket
-svgwrite
-```
+* `socket`
+* `svgwrite`
 
 ### Installing
 
